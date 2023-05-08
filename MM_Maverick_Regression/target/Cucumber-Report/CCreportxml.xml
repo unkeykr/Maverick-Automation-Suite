@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="890.239" tests="56" skipped="0" failures="20" errors="0">
+<testcase classname="URL redirection" name="Verify URL redirection" time="427.038">
+<system-out><![CDATA[
+Given Open the browser......................................................passed
+Then Launch url and verify..................................................passed
+Then Close browser..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify https://blog.movement.com/ url" time="4.648">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then verify url.............................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify MovementBlog logo" time="4.38">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then verify BlogMovement logo...............................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Search field" time="4.525">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on search button and verify Search field.........................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Hamburger icon" time="6.503">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on Hamburger icon and verify Home,Trending,Categories,About,Movement.com.passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Home Option redirects properly" time="7.102">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 lines on blog home page.....................................passed
+Then Click on Home option and verify url....................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Trending Option redirects properly" time="7.126">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 lines on blog home page.....................................passed
+Then Click on Trending option and verify url................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify when category Option is clicked more options pops up with the option to navigate back to the original option" time="8.374">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 dots beside Categories Option...............................passed
+Then Click on category Option and verify more options pops up with the option to navigate back to the original option.passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Market Update Option redirects properly" time="9.013">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 dots beside Categories Option...............................passed
+Then Click on Market Update option inside Categories Option and verify url..passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Movement Foundation Option redirects properly" time="8.997">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 dots beside Categories Option...............................passed
+Then Click on Movement Foundation option inside Categories Option and verify url.passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Movement News Option redirects properly" time="9.079">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 dots beside Categories Option...............................passed
+Then Click on Movement News option inside Categories Option and verify url..passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Mortgage 101 Option redirects properly" time="9.596">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 dots beside Categories Option...............................passed
+Then Click on Mortgage 101 option inside Categories Option and verify url...passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify Spotlight Option redirects properly" time="9.592">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 dots beside Categories Option...............................passed
+Then Click on Spotlight option inside Categories Option and verify url......passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify About Option redirects properly" time="7.583">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 lines on blog home page.....................................passed
+Then Click on About option and verify url...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify movement.com Option redirects properly" time="8.947">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on 3 lines on blog home page.....................................passed
+Then Click on movement.com option and verify url............................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify blog.movement.com page and its navigations" name="Verify MARKET UPDATE redirects properly" time="6.86">
+<system-out><![CDATA[
+Given Movement blog Page is Loaded Successfully.............................passed
+Then Click on MARKET UPDATE and verify url..................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify lo.movement.com home page and its navigations" name="Verify Loan Officer picture,page,logo and Menus" time="4.472">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3898f039db5fb7c408eb067f1bce8f16, findElement {using=xpath, value=//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3898f039db5fb7c408eb067f1bce8f16">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3898f039db5fb7c408eb067f1bce8f16, findElement {using=xpath, value=//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3898f039db5fb7c408eb067f1bce8f16
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.LoanOfficerMMLogoverification(MovementHomePage.java:1252)
+	at StepDefinition.MovementMortgage.loMMLogoverification(MovementMortgage.java:309)
+	at ?.Loan Officer page loaded successfully with Movement Mortgage Logo(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/lo_movement.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Loan Officer Movement Home Page URL is Loaded Successfully............passed
+Then Loan Officer page loaded successfully with Movement Mortgage Logo......failed
+Then Verify Movement Mortgage Loan officer picture..........................skipped
+Then Verify three menu options About Pete,Find My Mortgage,Free Tools.......skipped
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify lo.movement.com home page and its navigations" name="Verify Start My Application" time="5.894">
+<system-out><![CDATA[
+Given Loan Officer Movement Home Page URL is Loaded Successfully............passed
+Then Verify Start My Application button.....................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify lo.movement.com home page and its navigations" name="Verify Loan Officer Sub Menus" time="6.264">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@class=&quot;navigation-item dropdown&quot;]//a[text()='About Pete']&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [55f5744429ce2d34b6c41f3ffd3cd433, findElement {using=xpath, value=//li[@class=&quot;navigation-item dropdown&quot;]//a[text()='About Pete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60934/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55f5744429ce2d34b6c41f3ffd3cd433">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="navigation-item dropdown"]//a[text()='About Pete']"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [55f5744429ce2d34b6c41f3ffd3cd433, findElement {using=xpath, value=//li[@class="navigation-item dropdown"]//a[text()='About Pete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60934/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55f5744429ce2d34b6c41f3ffd3cd433
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.AboutMeVerification(MovementHomePage.java:1408)
+	at StepDefinition.MovementMortgage.verifyAboutLO(MovementMortgage.java:340)
+	at ?.Verify About Pete Menu(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/lo_movement.feature:18)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Loan Officer Movement Home Page URL is Loaded Successfully............passed
+Then Verify About Pete Menu.................................................failed
+Then Verify Find My Mortgage................................................skipped
+Then Verify Free Tools......................................................skipped
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify lo.movement.com home page and its navigations" name="Verify Redirecton of web page" time="22.691">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c1f6cd55c18016c89eaa0f8aab2ecf5, findElement {using=xpath, value=//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60989/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c1f6cd55c18016c89eaa0f8aab2ecf5">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c1f6cd55c18016c89eaa0f8aab2ecf5, findElement {using=xpath, value=//div[@class='logo-box']//a[@href='/pete-griffin/home']//img[contains(@src,'mm-mark.svg')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60989/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c1f6cd55c18016c89eaa0f8aab2ecf5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.MarketUpdateVerification(MovementHomePage.java:1775)
+	at StepDefinition.MovementMortgage.verifyMarketUpdateRedirect(MovementMortgage.java:382)
+	at ?.Verify Market Update Redirect(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/lo_movement.feature:28)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Loan Officer Movement Home Page URL is Loaded Successfully............passed
+Then Verify Go To Calculator Redirect.......................................passed
+Then Verify Find A Loan Redirect............................................passed
+Then Verify Pay My Mortgage Redirect........................................passed
+Then Verify Market Update Redirect..........................................failed
+Then Verify More FAQs Redirect..............................................skipped
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify lo.movement.com home page and its navigations" name="Verify Social Media webpages" time="51.289">
+<system-out><![CDATA[
+Given Loan Officer Movement Home Page URL is Loaded Successfully............passed
+Then Verify MM Twitter page.................................................passed
+Then Verify MM Instagram page...............................................passed
+Then Verify MM Facebook page................................................passed
+Then Verify MM LinkedIn page................................................passed
+Then Verify MM YouTube page.................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify lo.movement.com home page and its navigations" name="Verify video play option" time="5.485">
+<system-out><![CDATA[
+Given Loan Officer Movement Home Page URL is Loaded Successfully............passed
+Then Verify Moved By Love Video.............................................passed
+Then Verify Ten Year anniversary Video......................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify movement-military page" time="3.832">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Verify Movement Military url and Page Loaded successfully..............passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Movement Mortgage Logo" time="3.812">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Verify Movement Mortgage Military logo.................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify 2 Options beside MM Logo" time="4.15">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Verify Resource Library,Why Movement Options beside MM Logo............passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Resource library menu" time="5.67">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Resource library menu and verify url..........................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Why movement menu" time="4.504">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Why movement menu and verify url..............................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Get started button" time="33.763">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;page-9c5044c443&quot;]/div[4]/div[2]/div/main/div/div[3]/div[2]/button&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f63f861d1afbf05b2abe3c4cf1c113fb, findElement {using=xpath, value=//*[@id=&quot;page-9c5044c443&quot;]/div[4]/div[2]/div/main/div/div[3]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61386/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f63f861d1afbf05b2abe3c4cf1c113fb">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="page-9c5044c443"]/div[4]/div[2]/div/main/div/div[3]/div[2]/button"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f63f861d1afbf05b2abe3c4cf1c113fb, findElement {using=xpath, value=//*[@id="page-9c5044c443"]/div[4]/div[2]/div/main/div/div[3]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61386/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f63f861d1afbf05b2abe3c4cf1c113fb
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyFormSubmittedorNot(MovementHomePage.java:4433)
+	at StepDefinition.MovementMortgage.verify_form_submitted_or_not(MovementMortgage.java:521)
+	at ?.Verify form submitted or not(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:33)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Get started button and enter data and click next..............passed
+Then Verify form submitted or not...........................................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Discover my benefits button" time="3.135">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Understand Benefits&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f825a530cbae79a03c50b3855f223be, findElement {using=xpath, value=//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Understand Benefits&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61419}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61419/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f825a530cbae79a03c50b3855f223be">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Understand Benefits"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f825a530cbae79a03c50b3855f223be, findElement {using=xpath, value=//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Understand Benefits"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61419}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61419/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f825a530cbae79a03c50b3855f223be
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyDiscovvermyBenefitsURL(MovementHomePage.java:2532)
+	at StepDefinition.MovementMortgage.click_on_discover_my_benefits_button_and_verify_url(MovementMortgage.java:528)
+	at ?.Click on Discover my benefits button and verify url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:39)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Discover my benefits button and verify url....................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Permanent Change of Station button" time="3.472">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Permanent Change Station&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9fac055825a99d7742bbf0b71aca76, findElement {using=xpath, value=//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Permanent Change Station&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61446/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9fac055825a99d7742bbf0b71aca76">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Permanent Change Station"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9fac055825a99d7742bbf0b71aca76, findElement {using=xpath, value=//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Permanent Change Station"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61446/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9fac055825a99d7742bbf0b71aca76
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyPermanentChangeofStationURL(MovementHomePage.java:2571)
+	at StepDefinition.MovementMortgage.click_on_d_permanent_change_of_station_button_and_verify_url(MovementMortgage.java:535)
+	at ?.Click on Permanent Change of Station button and verify url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:45)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Permanent Change of Station button and verify url.............failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Buy my first home button" time="2.795">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Thinking of Buying Home&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2411bf890903b37dafbecbf4d0efec8, findElement {using=xpath, value=//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Thinking of Buying Home&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61471/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2411bf890903b37dafbecbf4d0efec8">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Thinking of Buying Home"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2411bf890903b37dafbecbf4d0efec8, findElement {using=xpath, value=//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Thinking of Buying Home"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61471/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2411bf890903b37dafbecbf4d0efec8
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyBuymyFirstHomeURL(MovementHomePage.java:2616)
+	at StepDefinition.MovementMortgage.click_on_buy_my_first_home_button_and_verify_url(MovementMortgage.java:542)
+	at ?.Click on Buy my first home button and verify url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:50)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Buy my first home button and verify url.......................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Lower my payments or buy again button" time="3.134">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Buy Second Home or Refi&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3437a1301e8e30fb1bd07fb204c5bb72, findElement {using=xpath, value=//a[@href=&quot;/movement-military/va-bootcamp/silo-interior-page?tag=Buy Second Home or Refi&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61496}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61496/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3437a1301e8e30fb1bd07fb204c5bb72">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Buy Second Home or Refi"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3437a1301e8e30fb1bd07fb204c5bb72, findElement {using=xpath, value=//a[@href="/movement-military/va-bootcamp/silo-interior-page?tag=Buy Second Home or Refi"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61496}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61496/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3437a1301e8e30fb1bd07fb204c5bb72
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLowermypaymentsorbuyagainURL(MovementHomePage.java:2660)
+	at StepDefinition.MovementMortgage.click_on_lower_my_payments_or_buy_again_button_and_verify_url(MovementMortgage.java:549)
+	at ?.Click on Lower my payments or buy again button and verify url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:56)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Lower my payments or buy again button and verify url..........failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify slider cursor the lesson slides to the direction it is clicked" time="3.633">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Arrows beside VA Loan bootcamp and verify the lesson slides to the direction it is clicked.passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Lesson 1 video url" time="3.02">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 1&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92dd0a8fd80d85bd3a1ace663cfa13bd, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 1&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61549/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92dd0a8fd80d85bd3a1ace663cfa13bd">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 1"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92dd0a8fd80d85bd3a1ace663cfa13bd, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 1"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61549}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61549/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 92dd0a8fd80d85bd3a1ace663cfa13bd
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson1(MovementHomePage.java:2704)
+	at StepDefinition.MovementMortgage.click_on_lesson_video_and_verify_the_url(MovementMortgage.java:555)
+	at ?.Click on Lesson 1 video and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:68)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Lesson 1 video and verify the url.............................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Second Lesson video url" time="2.923">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 2&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32db915d14432816089717ff81ff20d9, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 2&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61575/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32db915d14432816089717ff81ff20d9">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 2"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32db915d14432816089717ff81ff20d9, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 2"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61575/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32db915d14432816089717ff81ff20d9
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson2(MovementHomePage.java:2746)
+	at StepDefinition.MovementMortgage.click_on_second_lesson_video_and_verify_the_url(MovementMortgage.java:561)
+	at ?.Click on second lesson video and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:74)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on second lesson video and verify the url........................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Third Lesson video url" time="2.992">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 3&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [485a367db61b80611e55755c60916988, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 3&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61601/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 485a367db61b80611e55755c60916988">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 3"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [485a367db61b80611e55755c60916988, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 3"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61601}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61601/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 485a367db61b80611e55755c60916988
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson3(MovementHomePage.java:2788)
+	at StepDefinition.MovementMortgage.click_on_third_lesson_video_and_verify_the_url(MovementMortgage.java:566)
+	at ?.Click on third lesson video and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:79)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on third lesson video and verify the url.........................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Fourth Lesson video url" time="3.138">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 4&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [611a5e41736f918f25b3e5dacc4af521, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//a[@title=&quot;Lesson 4&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61628/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 611a5e41736f918f25b3e5dacc4af521">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 4"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [611a5e41736f918f25b3e5dacc4af521, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//a[@title="Lesson 4"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61628/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 611a5e41736f918f25b3e5dacc4af521
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson4(MovementHomePage.java:2830)
+	at StepDefinition.MovementMortgage.click_on_fourth_lesson_video_and_verify_the_url(MovementMortgage.java:571)
+	at ?.Click on fourth lesson video and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:85)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on fourth lesson video and verify the url........................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Fifth Lesson video url" time="5.535">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on fifth lesson video and verify the url.........................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Get Started button under first Lesson" time="2.92">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson1&quot;)]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f52cad15aa0e62ec7347cd1aaa805299, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson1&quot;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61680/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f52cad15aa0e62ec7347cd1aaa805299">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson1")]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f52cad15aa0e62ec7347cd1aaa805299, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson1")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61680/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f52cad15aa0e62ec7347cd1aaa805299
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson1underGetStarted(MovementHomePage.java:2932)
+	at StepDefinition.MovementMortgage.click_on_get_started_button_under_first_lesson_and_verify_the_url(MovementMortgage.java:582)
+	at ?.Click on Get Started button under first Lesson and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:96)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Get Started button under first Lesson and verify the url......failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Get Started button under second Lesson" time="2.842">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson2&quot;)]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73ea6172e23480a910e6c912e4e405fe, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson2&quot;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ea6172e23480a910e6c912e4e405fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson2")]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73ea6172e23480a910e6c912e4e405fe, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson2")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61706}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61706/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73ea6172e23480a910e6c912e4e405fe
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson2underGetStarted(MovementHomePage.java:2974)
+	at StepDefinition.MovementMortgage.click_on_get_started_button_under_second_lesson_and_verify_the_url(MovementMortgage.java:588)
+	at ?.Click on Get Started button under second Lesson and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:102)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Get Started button under second Lesson and verify the url.....failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Get Started button under third Lesson" time="2.849">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson3&quot;)]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67d050e308fd54f4c25a5b3d43a4781d, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson3&quot;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61731/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67d050e308fd54f4c25a5b3d43a4781d">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson3")]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67d050e308fd54f4c25a5b3d43a4781d, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson3")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61731}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61731/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67d050e308fd54f4c25a5b3d43a4781d
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson3underGetStarted(MovementHomePage.java:3017)
+	at StepDefinition.MovementMortgage.click_on_get_started_button_under_third_lesson_and_verify_the_url(MovementMortgage.java:594)
+	at ?.Click on Get Started button under third Lesson and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:107)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Get Started button under third Lesson and verify the url......failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Get Started button under fourth Lesson" time="2.95">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson4&quot;)]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50618dbcc8f4eca7a398c0ba6f287cd5, findElement {using=xpath, value=//div[@id=&quot;slider-con--374745528&quot;]//div[@role=&quot;listbox&quot;]//div[@class=&quot;carousel-item active&quot;]//div[@class=&quot;col-lg-3 col-md-6 col-sm-12&quot;]//div[@class=&quot;get-button button&quot;]//a[contains(@href,&quot;lesson=Lesson4&quot;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61756/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 50618dbcc8f4eca7a398c0ba6f287cd5">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson4")]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50618dbcc8f4eca7a398c0ba6f287cd5, findElement {using=xpath, value=//div[@id="slider-con--374745528"]//div[@role="listbox"]//div[@class="carousel-item active"]//div[@class="col-lg-3 col-md-6 col-sm-12"]//div[@class="get-button button"]//a[contains(@href,"lesson=Lesson4")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61756/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 50618dbcc8f4eca7a398c0ba6f287cd5
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyLesson4underGetStarted(MovementHomePage.java:3060)
+	at StepDefinition.MovementMortgage.click_on_get_started_button_under_fourth_lesson_and_verify_the_url(MovementMortgage.java:600)
+	at ?.Click on Get Started button under fourth Lesson and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:112)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Get Started button under fourth Lesson and verify the url.....failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Get Started button under fifth Lesson" time="9.129">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Get Started button under fifth Lesson and verify the url......passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify View Full Library URL" time="3.032">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&quot;va-home-view-full-library-button&quot;]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15a741e7dea696bd55cce93d0f46ce7f, findElement {using=xpath, value=//a[@id=&quot;va-home-view-full-library-button&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61809/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15a741e7dea696bd55cce93d0f46ce7f">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id="va-home-view-full-library-button"]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15a741e7dea696bd55cce93d0f46ce7f, findElement {using=xpath, value=//a[@id="va-home-view-full-library-button"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61809/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15a741e7dea696bd55cce93d0f46ce7f
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyViewFullLibraryURL(MovementHomePage.java:3164)
+	at StepDefinition.MovementMortgage.click_on_view_full_library_button_and_verify_the_url(MovementMortgage.java:613)
+	at ?.Click on View Full Library button and verify the url(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:124)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on View Full Library button and verify the url...................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Start Now button below Get mission ready section" time="33.935">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;page-9c5044c443&quot;]/div[4]/div[2]/div/main/div/div[3]/div[2]/button&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff53331215c7b29e63177cb9ef22ff3, findElement {using=xpath, value=//*[@id=&quot;page-9c5044c443&quot;]/div[4]/div[2]/div/main/div/div[3]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61835/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff53331215c7b29e63177cb9ef22ff3">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="page-9c5044c443"]/div[4]/div[2]/div/main/div/div[3]/div[2]/button"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cff53331215c7b29e63177cb9ef22ff3, findElement {using=xpath, value=//*[@id="page-9c5044c443"]/div[4]/div[2]/div/main/div/div[3]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61835}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61835/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff53331215c7b29e63177cb9ef22ff3
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyFormSubmittedorNot(MovementHomePage.java:4433)
+	at StepDefinition.MovementMortgage.verify_form_submitted_or_not(MovementMortgage.java:521)
+	at ?.Verify form submitted or not(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:131)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Start Now button below Get mission ready section..............passed
+Then Verify form submitted or not...........................................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Cursor below GET MISSION READY section" time="3.88">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on cursor and verify slides to the direction it is clicked.......passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify Get Started beside READY TO GO?" time="33.913">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;page-9c5044c443&quot;]/div[4]/div[2]/div/main/div/div[3]/div[2]/button&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bf10261d4c2b1195085f72273444773, findElement {using=xpath, value=//*[@id=&quot;page-9c5044c443&quot;]/div[4]/div[2]/div/main/div/div[3]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bf10261d4c2b1195085f72273444773">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="page-9c5044c443"]/div[4]/div[2]/div/main/div/div[3]/div[2]/button"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bf10261d4c2b1195085f72273444773, findElement {using=xpath, value=//*[@id="page-9c5044c443"]/div[4]/div[2]/div/main/div/div[3]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61895/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2bf10261d4c2b1195085f72273444773
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.verifyFormSubmittedorNot(MovementHomePage.java:4433)
+	at StepDefinition.MovementMortgage.verify_form_submitted_or_not(MovementMortgage.java:521)
+	at ?.Verify form submitted or not(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement%20military.feature:143)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on Get Started beside READY TO GO?...............................passed
+Then Verify form submitted or not...........................................failed
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify va-blog.movement.com home page and its navigations" name="Verify ? bot" time="4.448">
+<system-out><![CDATA[
+Given Movement military Page is Loaded Successfully.........................passed
+Then Click on ? bot and verify new prompt...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify Movement Mortgage Logo and Menu Options" time="4.261">
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Home Page is loaded successfully with Movement Mortgage Logo...........passed
+Then Verify Movement Mortgage Menu Options..................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify Careers Submenus" time="17.534">
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Hover Careers Menu to verify Submenu...................................passed
+Then Open Careers Submenu to verify their screen and URL....................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify About Submenus" time="9.11">
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Hover About Menu to verify Submenu.....................................passed
+Then Open About Submenu to verify their screen and URL......................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify Home Loans Submenus" time="7.297">
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Hover Home Loans Menu to verify Submenu................................passed
+Then Open Home Loans Submenu to verify their screen and URL.................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify Customers Submenus" time="6.736">
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Hover Customers Menu to verify Submenu.................................passed
+Then Open Customers Submenu to verify their screen and URL..................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify Apply Now button Submenus" time="3.199">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),'get started')]&quot;}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b9c648252fbf3e36026f1ef53698, findElement {using=xpath, value=//h2[contains(text(),'get started')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62152/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b9c648252fbf3e36026f1ef53698">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'get started')]"}
+  (Session info: headless chrome=113.0.5672.64)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b9c648252fbf3e36026f1ef53698, findElement {using=xpath, value=//h2[contains(text(),'get started')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.64, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\PAVANK~1.KOU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62152}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62152/devtoo..., se:cdpVersion: 113.0.5672.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b9c648252fbf3e36026f1ef53698
+	at sun.reflect.GeneratedConstructorAccessor85.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.MovementHomePage.ApplyNowVerify(MovementHomePage.java:734)
+	at StepDefinition.MovementMortgage.ApplyNowButtonVerify(MovementMortgage.java:201)
+	at ?.Click on Apply Now to verify Lets Get Started Page(file:///C:/Users/pavankumar.kouda/Desktop/MM_Maverick_Regression/src/test/resources/Feature/movement.feature:36)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Click on Apply Now to verify Lets Get Started Page.....................failed
+Then Verify two sub Menu options............................................skipped
+Then Verify the Screen and URLs of the Apply Now sub menus by clicking on them.skipped
+Then Click on the Movement Mortgage Logo to redirect on Home Page...........skipped
+Then Close the browser......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify Contact,Learn More,View Loans and Find A Loan Officer button and their URLs" time="8.713">
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Click on Contact button to verify its screen and URL...................passed
+Then Click on Learn More About Us button to verify its screen and URL.......passed
+Then Click on View Loans button to verify its screen and URL................passed
+Then Click on Find A loan Officer button to verify its screen and URL.......passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Movement.com home page Menu and Sub-menus." name="Verify carousel section and Image enlargement" time="7.92">
+<system-out><![CDATA[
+Given Movement Home Page URL is Loaded Successfully.........................passed
+Then Scroll to Carousel section to verify using left and right arrow........passed
+Then Click on small image on right to verify enlargement....................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

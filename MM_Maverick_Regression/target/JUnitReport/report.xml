@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.454" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Adobe url1 login" name="User should be able to launch movement.com url" time="7.281">
+<failure type="io.cucumber.java.PendingException" message="TODO: implement me">
+<![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at StepDefinition.LaunchURL.Launch_Browser(LaunchURL.java:31)
+	at ✽.Browser is opened(file:///C:/Users/vinay.singh/eclipse-workspace/AdobeReg/src/test/resources/Feature/Adobeurl1.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Base url of the application...........................................passed
+When Browser is opened......................................................pending
+And Url is provided in address bar of browser...............................skipped
+Then Movement Mortage home page should be opened............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Adobe url1 login" name="User should be able to launch movement.com url" time="4.871">
+<failure type="io.cucumber.java.PendingException" message="TODO: implement me">
+<![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at StepDefinition.LaunchURL.Launch_Browser(LaunchURL.java:31)
+	at ✽.Browser is opened(file:///C:/Users/vinay.singh/eclipse-workspace/AdobeReg/src/test/resources/Feature/Login.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Base url of the application...........................................passed
+When Browser is opened......................................................pending
+And Url is provided in address bar of browser...............................skipped
+Then Movement Mortage home page should be opened............................skipped
+]]></system-out>
+</testcase>
+</testsuite>
